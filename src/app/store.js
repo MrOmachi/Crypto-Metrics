@@ -1,8 +1,12 @@
-import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import { configureStore } from "@reduxjs/toolkit";
+import CryptoReducer, {
+  fetchCryptos,
+} from "../features/cryptoFetch/CryptoSlice";
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    crypto: CryptoReducer,
   },
 });
+
+store.dispatch(fetchCryptos());

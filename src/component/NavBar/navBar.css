@@ -1,0 +1,6 @@
+.NavBar {
+  display: flex;
+  width: 96%;
+  margin: auto;
+  justify-content: space-between;
+}

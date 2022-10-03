@@ -1,0 +1,29 @@
+.cryptoCardsContainers{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.conisCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 240px;
+  border-radius: 10px;
+  background-color: grey;
+}
+
+.coinIcon {
+  width: 20%;
+}
+
+.coinDetails{
+  width: 60%;
+  text-align: center;
+}
+
+.arrowForward {
+  width: 20px;
+}
