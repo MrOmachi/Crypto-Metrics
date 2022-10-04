@@ -24,6 +24,11 @@ function CryptoCoins() {
           })}
         </div>
       </div>
+      <div className="coinIcons">
+        <p>💰</p>
+        <p>₿ </p>
+        <p>🪙</p>
+      </div>
       <div className="cardsContain">
         {coins.map((coin) => (
           <div key={coin.id} className="conisCard">

@@ -1,13 +1,16 @@
 body {
-  background-color: aqua;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../images/istockphoto-1313455188-612x612.jpg);
+  background-size: contain;
 }
 
 .hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
     url(../../images/istockphoto-1313455188-612x612.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
+  box-shadow: 30px 10px 10px rgba(0, 0, 0, 0.5);
   border-radius: 20px;
   margin: auto;
 }
@@ -32,7 +35,39 @@ body {
   padding: 20px;
   width: 240px;
   border-radius: 10px;
-  background-color: grey;
+  background-color: white;
+}
+
+.coinIcons {
+  display: flex;
+  color: gold;
+  font-size: 40px;
+  width: 85%;
+  margin: auto;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.coinIcons p {
+  -webkit-animation: spin 4s linear infinite;
+  -moz-animation: spin 4s linear infinite;
+  animation: spin 4s linear infinite;
+}
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
 }
 
 .conisCard img {
@@ -67,14 +102,16 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 85%;
+    width: 95%;
     margin: auto;
   }
 
   .conisCard {
     background-color: white;
     display: flex;
-    width: 100%;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
   }
 
   .coinRank {
