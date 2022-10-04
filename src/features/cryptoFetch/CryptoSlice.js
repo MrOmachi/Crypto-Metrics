@@ -11,13 +11,23 @@ export const fetchCryptos = createAsyncThunk(
   }
 );
 
-const initialState = [];
 export const crytopSlice = createSlice({
   name: "crypto",
-  initialState,
+  initialState: { crypto: [], status: 'idle'},
 
   extraReducers: {
-    [fetchCryptos.fulfilled]: (state, action) => action.payload,
+    [fetchCryptos.fulfilled]: (state, { payload }) => {
+      return {
+        ...state, 
+        status: 'idle',
+        crypto: payload,
+      }
+    },
+    [fetchCryptos.pending]: (state => {
+      return {
+        ...state, status: 'pending'
+      }
+    }) 
   },
 });
 
