@@ -1,5 +1,5 @@
-import React from "react";
-import CryptoCoins from "./CryptoCards";
+import React from 'react';
+import CryptoCoins from './CryptoCards';
 
 function CryptoContainer() {
   return (

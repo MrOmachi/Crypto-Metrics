@@ -1,7 +1,7 @@
-import React from "react";
-import { useSelector } from "react-redux";
-import { useParams } from "react-router-dom";
-import "./details.css";
+import React from 'react';
+import { useSelector } from 'react-redux';
+import { useParams } from 'react-router-dom';
+import './details.css';
 
 function CoinDetails() {
   const { id } = useParams();
@@ -9,14 +9,14 @@ function CoinDetails() {
   const { crypto, status } = useSelector((state) => state.crypto);
   return (
     <div className="coinDtailsContainer">
-      {status === "pending" ? (
+      {status === 'pending' ? (
         <div className="ring">
           Loading
-          <span></span>
+          <span />
         </div>
       ) : (
         crypto.map((coin) => {
-          if (coin.id === id)
+          if (coin.id === id) {
             return (
               <div key={coin.id} className="detailsContainer">
                 <div className="coinHeader">
@@ -28,8 +28,12 @@ function CoinDetails() {
                     </div>
                   </div>
                   <div className="coniName">
-                    <h2>coin: {coin.name}</h2>
-                    Ranked at: #{coin.rank}
+                    <h2>
+                      coin:
+                      {coin.name}
+                    </h2>
+                    Ranked at: #
+                    {coin.rank}
                   </div>
                 </div>
 
@@ -101,6 +105,8 @@ function CoinDetails() {
                 </div>
               </div>
             );
+          }
+          return null;
         })
       )}
     </div>
