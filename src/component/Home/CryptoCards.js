@@ -41,7 +41,7 @@ function CryptoCoins() {
               <h2>{coin.symbol}</h2>
               <p className="price">{coin.price}</p>
             </div>
-            <Link to={`${coin.id}`}>
+            <Link className="enterIcon" to={`${coin.id}`}>
               <div className="arrowForward">
                 <p>➡</p>
               </div>

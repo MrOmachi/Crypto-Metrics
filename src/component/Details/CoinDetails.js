@@ -8,14 +8,18 @@ function CoinDetails() {
 
   const cryptoCoins = useSelector((state) => state.crypto);
   return (
-    <div>
+    <div className="coinDtailsContainer">
       {cryptoCoins.map((coin) => {
         if (coin.id === id)
           return (
             <div key={coin.id} className="detailsContainer">
               <div className="coinHeader">
                 <div className="coinImg">
-                  <img src="" alt="" />
+                  <div className="coinIcons">
+                    <p>💰</p>
+                    <p>₿ </p>
+                    <p>🪙</p>
+                  </div>
                 </div>
                 <div className="coniName">
                   <h2>coin: {coin.name}</h2>

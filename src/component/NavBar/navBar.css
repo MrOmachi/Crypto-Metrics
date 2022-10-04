@@ -11,6 +11,12 @@
   gap: 20px;
 }
 
-.nameNav{
+.nameNav {
   color: gold;
 }
+
+.navLink {
+  text-decoration: none;
+
+}
+

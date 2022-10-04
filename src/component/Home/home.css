@@ -24,11 +24,12 @@ body {
 .cardsContain {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 15px;
   flex-wrap: wrap;
 }
 
 .conisCard {
+  transition: all ease-in-out 0.45s;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -36,6 +37,10 @@ body {
   width: 240px;
   border-radius: 10px;
   background-color: white;
+}
+
+.conisCard:hover {
+  transform: scale(1.05);
 }
 
 .coinIcons {
@@ -85,6 +90,16 @@ body {
 
 .arrowForward {
   width: 20px;
+}
+
+.enterIcon {
+  text-decoration: none;
+  transition: all ease-in-out 0.45s;
+  font-size: 25px;
+}
+
+.enterIcon:hover {
+  transform: scale(1.5);
 }
 
 @media (max-width: 750px) {
