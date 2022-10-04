@@ -4,9 +4,11 @@ import "./navBar.css";
 function NavBar() {
   return (
     <div className="NavBar">
-      <h1 className="nomeNav">Home</h1>
-      <h2 className="cryptoNav">Crypto Market Metrics</h2>
-      <p className="settingsNav">⚙️</p>
+      <h1 className="nomeNav">My Wallet</h1>
+      <div className="cryptoNav">
+        <h2 className="notifNav">🔔</h2>
+        <p className="settingsNav">⚙️</p>
+      </div>
     </div>
   );
 }

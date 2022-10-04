@@ -1,0 +1,14 @@
+.coinHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detailsContainer {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.coinInfoName {
+  display: flex;
+  justify-content: space-between;
+}

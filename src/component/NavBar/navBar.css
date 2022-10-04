@@ -4,3 +4,9 @@
   margin: auto;
   justify-content: space-between;
 }
+
+.cryptoNav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

@@ -1,4 +1,24 @@
-.cryptoCardsContainers{
+body {
+  background-color: aqua;
+}
+
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../images/istockphoto-1313455188-612x612.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  border-radius: 20px;
+  margin: auto;
+}
+
+.heroDetails {
+  padding: 20px 0;
+  width: 80%;
+  margin: auto;
+}
+
+.cardsContain {
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -15,15 +35,49 @@
   background-color: grey;
 }
 
+.conisCard img {
+  width: 80px;
+}
+
 .coinIcon {
   width: 20%;
 }
 
-.coinDetails{
+.coinDetails {
   width: 60%;
   text-align: center;
 }
 
 .arrowForward {
   width: 20px;
+}
+
+@media (max-width: 750px) {
+  body {
+    background-color: white;
+  }
+
+  .hero {
+    color: white;
+    width: 80%;
+    margin: auto;
+  }
+
+  .cardsContain {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+  }
+
+  .conisCard {
+    background-color: white;
+    display: flex;
+    width: 100%;
+  }
+
+  .coinRank {
+    display: none;
+  }
 }
