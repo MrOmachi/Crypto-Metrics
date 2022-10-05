@@ -1,0 +1,31 @@
+.coinDtailsContainer {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.coinHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 94%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.detailsContainer {
+  width: 100%;
+  color: white;
+  margin: 0 auto;
+}
+
+.coinInfoName {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+}
+
+.coinInfoName:nth-child(odd) {
+  color: gold;
+  background-color: rgb(103, 35, 47);
+}

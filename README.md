@@ -1,46 +1,98 @@
-# Getting Started with Create React App and Redux
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+# Crypto-Metrics
 
-## Available Scripts
+> This is an Educational Project for the Microverse Module 3 (React-Redux) capstone. It is built with React, Redux/Toolkit, and React Linters for enforcing standard coding react coding practice. The Project is aimed at fetching API data, displaying Cryptocurrency and query the API endpoints for searched data for coins listings in the market. This project is MIT Licensed
 
-In the project directory, you can run:
+## Built With
 
-### `npm start`
+- JavaScript
+- ReactJs
+- Git, GitHub, Git workflow, Jest
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Live Demo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[Link](https://capable-cocada-8e58df.netlify.app/)
 
-### `npm test`
+## Video Presentation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[Link](https://youtu.be/q-afXca_0fc)
 
-### `npm run build`
+## Mockup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> Multi devices
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img src="./src/images/all-devices-white.png" alt="mobile-image" width="355px" />
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+### To have a copy of this project running on your local machine, follow these commands:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Clone this repo to your local machine
+  - `git clone https://github.com/MrOmachi/Crypto-Metrics.git `
+  - Open the folder "crypto_metrics
+    and run `npm install` to install all necesary scripts,
+  - Run from your termminal, `npm start` to open the project in your browser.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To get a local copy up and running follow these simple example steps.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Prerequisites
 
-## Learn More
+- [NodeJS](https://nodejs.org/en/docs/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+> As an asynchronous event-driven JavaScript runtime, Node.js is designed to build scalable network applications. In the following "hello world" example, many connections can be handled concurrently. Upon each connection, the callback is fired, but if there is no work to be done, Node.js will sleep.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Text Editor(VScode Recommended)](https://code.visualstudio.com/)
+
+> Visual Studio Code is a free coding editor that helps you start coding quickly. Use it to code in any programming language, without switching editors.
+
+### Setup
+
+**Run from your terminal:**
+
+- `npx create-react-app ./`
+
+**cd into space-traveler-hub folder, then run from your terminal:**
+
+- `npm start`
+
+### Usage
+
+**When the above commands aresuccessfully run, your browser should open on `localhost:3000`, if not, open your browser and load `127.0.0.1:3000` to see your default template loaded .**
+
+### Run tests
+
+> coming soon :smile:
+
+### Deployment
+
+> coming soon :smile:
+
+## Authors
+
+👤 _Omachi John_
+
+- GitHub: [@githubhandle](https://github.com/MrOmachi)
+- Twitter: [@twitterhandle](https://twitter.com/Mr_Omachi)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/mwlite/in/john-omachi-00446210b)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Inspiration [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
+- Microverse student community.
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
