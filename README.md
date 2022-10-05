@@ -14,12 +14,11 @@
 
 [Link](https://capable-cocada-8e58df.netlify.app/)
 
-<!-- ## Mockup
+## Mockup
 
 > Multi devices
 
-
-<img src="./src/img/mockup/devices.png" alt="mobile-image" width="355px" /> -->
+<img src="./src/images/all-devices-white.png" alt="mobile-image" width="355px" />
 
 ## Getting Started
 
