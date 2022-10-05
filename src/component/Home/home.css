@@ -1,13 +1,11 @@
 body {
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../../images/istockphoto-1313455188-612x612.jpg);
   background-size: contain;
 }
 
 .hero {
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
     url(../../images/istockphoto-1313455188-612x612.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -230,30 +228,5 @@ span::before {
 
   .coinRank {
     display: none;
-  }
-}
-
-@media (max-width: 450px) {
-  .cardsContain {
-    display: flex;
-    overflow: hidden;
-    gap: 2px;
-    justify-content: center;
-    margin: auto;
-  }
-
-  .conisCard {
-    background-color: white;
-    width: 37%;
-    margin: 0 auto;
-    border-radius: 10px;
-  }
-
-  .conisCard img {
-    width: 35px;
-  }
-
-  .coinSymbol {
-    font-size: 15px;
   }
 }
