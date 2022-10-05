@@ -22,14 +22,13 @@ function CoinDetails() {
                 <div className="coinHeader">
                   <div className="coinImg">
                     <div className="coinIcons">
-                      <p>💰</p>
-                      <p>₿ </p>
-                      <p>🪙</p>
+                      <p><img src={coin.icon} alt="Coin Icon" /></p>
                     </div>
                   </div>
                   <div className="coniName">
                     <h2>
                       coin:
+                      {' '}
                       {coin.name}
                     </h2>
                     Ranked at: #
