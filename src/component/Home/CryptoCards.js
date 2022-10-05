@@ -63,7 +63,7 @@ function CryptoCoins() {
           filteredSearch.map((coin) => (
             <div key={coin.id} className="conisCard">
               <div className="coinIcon">
-                <img src={coin.icon} alt="CoinIcon" />
+                <img className="coinIconImg" src={coin.icon} alt="CoinIcon" />
               </div>
               <div className="coinDetails">
                 <p className="coinRank">
@@ -71,10 +71,10 @@ function CryptoCoins() {
                   {coin.rank}
                 </p>
                 <h3>{coin.name}</h3>
-                <h2>{coin.symbol}</h2>
+                <h2 className="coinSymbol">{coin.symbol}</h2>
                 <p className="price">
                   $
-                  {coin.price}
+                  {coin.price.toFixed(3)}
                 </p>
               </div>
               <Link className="enterIcon" to={`${coin.id}`}>
