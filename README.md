@@ -22,7 +22,6 @@
 
 ## Mockup
 
-=======
 
 <!-- ## Mockup
 >>>>>>> parent of 24a3c89 (Update Readme file)
