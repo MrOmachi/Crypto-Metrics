@@ -60,7 +60,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Usage
 
-**When the above commands aresuccessfully run, your browser should open on `localhost:3000`, if not, open your browser and load `127.0.0.1:3000` to see your default template loaded**
+**When the above commands aresuccessfully run, your browser should open on `localhost:3000`, if not, open your browser and load `127.0.0.1:3000` to see your default template loaded .**
 
 ### Run tests
 
@@ -91,7 +91,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Inspiration [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
-- Microverse student community
+- Microverse student community.
 
 ## 📝 License
 

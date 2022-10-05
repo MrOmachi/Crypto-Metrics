@@ -1,11 +1,11 @@
-import Reducer, { fetchCryptos } from "../features/cryptoFetch/CryptoSlice";
+import Reducer, { fetchCryptos } from '../features/cryptoFetch/CryptoSlice';
 
 const payload = [
   {
-    id: "bitcoin",
-    icon: "https://static.coinstats.app/coins/1650455588819.png",
-    name: "Bitcoin",
-    symbol: "BTC",
+    id: 'bitcoin',
+    icon: 'https://static.coinstats.app/coins/1650455588819.png',
+    name: 'Bitcoin',
+    symbol: 'BTC',
     rank: 1,
     price: 20207.67827071588,
     priceBtc: 1,
@@ -16,15 +16,15 @@ const payload = [
     priceChange1h: -0.03,
     priceChange1d: 1.13,
     priceChange1w: 3.6,
-    websiteUrl: "http://www.bitcoin.org",
-    twitterUrl: "https://twitter.com/bitcoin",
+    websiteUrl: 'http://www.bitcoin.org',
+    twitterUrl: 'https://twitter.com/bitcoin',
   },
 ];
 
-describe("Testing AsyncThunk functions", () => {
+describe('Testing AsyncThunk functions', () => {
   const initialState = {
     crypto: [],
-    status: "idle",
+    status: 'idle',
   };
 
   const pendingState = {
@@ -33,17 +33,17 @@ describe("Testing AsyncThunk functions", () => {
 
   const fulfilledState = { type: fetchCryptos.fulfilled, payload };
 
-  it("Test for pending state", () => {
+  it('Test for pending state', () => {
     expect(Reducer(initialState, pendingState)).toEqual({
       crypto: [],
-      status: "pending",
+      status: 'pending',
     });
   });
 
-  it("Testing the fulfil state of Async call", () => {
+  it('Testing the fulfil state of Async call', () => {
     expect(Reducer(initialState, { fulfilledState })).toEqual({
       crypto: [],
-      status: "idle",
+      status: 'idle',
     });
   });
 });
