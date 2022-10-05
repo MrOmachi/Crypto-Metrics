@@ -1,36 +1,37 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Traveler's Hub
-![logo](https://user-images.githubusercontent.com/84629565/192157992-0711df2a-c851-4bbc-9f05-9c17c261490d.jpg)
+# Crypto-Metrics
 
-![App view](./src/resources/desktop.png)
-
->This web application provides commercial and scientific space travel services. The application allows users to book rockets and join selected space missions.
-> This is an educational project aimed at understanding Understand how to use medium-fidelity wireframes to create a UI, Follow text written requirements (e.g., user stories), Use GitFlow to work with other developers in a team, Solve simple git conflicts, Write clear, professional, and respectful review comments for other team members, Explain "why" a change is requested when giving a code review, Perform a code review for a team member.
-
+> This is an Educational Project for the Microverse Module 3 (React-Redux) capstone. It is built with React, Redux/Toolkit, and React Linters for enforcing standard coding react coding practice. The Project is aimed at fetching API data, displaying Cryptocurrency and query the API endpoints for searched data for coins listings in the market. This project is MIT Licensed
 
 ## Built With
 
 - JavaScript
-- ReactJs, Redux toolkit, React-Bootstrap
+- ReactJs
 - Git, GitHub, Git workflow, Jest
 
-## Live Demo (if available)
+## Live Demo
 
-[Live link](https://resplendent-granita-2cc67f.netlify.app/Rockets)
+[Link](https://capable-cocada-8e58df.netlify.app/)
 
+<!-- ## Mockup
+
+> Multi devices
+
+
+<img src="./src/img/mockup/devices.png" alt="mobile-image" width="355px" /> -->
 
 ## Getting Started
 
 ### To have a copy of this project running on your local machine, follow these commands:
 
 - Clone this repo to your local machine
-  -  `git clone https://github.com/MrOmachi/Space-Travelers-Hub.git`
-  - Open the folder "Math-magician and run `npm install` to install all necesary scripts,
+  - `git clone https://github.com/MrOmachi/Crypto-Metrics.git `
+  - Open the folder "crypto_metrics
+    and run `npm install` to install all necesary scripts,
   - Run from your termminal, `npm start` to open the project in your browser.
 
 **This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).**
-
 
 To get a local copy up and running follow these simple example steps.
 
@@ -50,7 +51,7 @@ To get a local copy up and running follow these simple example steps.
 
 - `npx create-react-app ./`
 
-**cd into math-magician folder, then run from your terminal:**
+**cd into space-traveler-hub folder, then run from your terminal:**
 
 - `npm start`
 
@@ -64,6 +65,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Deployment
 
+> coming soon :smile:
 
 ## Authors
 
@@ -72,12 +74,6 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@githubhandle](https://github.com/MrOmachi)
 - Twitter: [@twitterhandle](https://twitter.com/Mr_Omachi)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/mwlite/in/john-omachi-00446210b)
-
-👤 _Federico Luna V._
-
-- GitHub: [@Flunavgt](https://github.com/Flunavgt)
-- Twitter: [@flunavgt](https://twitter.com/flunavgt)
-- LinkedIn: [federico-luna-Gt](https://linkedin.com/in/federico-luna-Gt)
 
 ## 🤝 Contributing
 
