@@ -14,22 +14,11 @@
 
 [Link](https://capable-cocada-8e58df.netlify.app/)
 
-<<<<<<< HEAD
 
 ## Video Presentation
 
 [Link](https://youtu.be/q-afXca_0fc)
 
-## Mockup
-
-
-<!-- ## Mockup
->>>>>>> parent of 24a3c89 (Update Readme file)
-
-> Multi devices
-
-
-<img src="./src/img/mockup/devices.png" alt="mobile-image" width="355px" /> -->
 
 ## Getting Started
 

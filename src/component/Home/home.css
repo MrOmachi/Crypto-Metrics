@@ -25,6 +25,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 15px;
+  cursor: pointer;
   flex-wrap: wrap;
 }
 
@@ -39,10 +40,6 @@ body {
   background-color: white;
 }
 
-.conisCard:hover {
-  transform: scale(1.05);
-}
-
 .searchInput {
   display: flex;
   justify-content: center;
@@ -55,10 +52,6 @@ body {
   border-radius: 30px;
   padding: 15px;
   box-shadow: 1px 1px 1px rgba(249, 249, 249, 0.25);
-}
-
-.inputSearchBox:hover {
-  transform: scale(1.09);
 }
 
 .coinIcons {
@@ -117,10 +110,6 @@ body {
   text-decoration: none;
   transition: all ease-in-out 0.45s;
   font-size: 25px;
-}
-
-.enterIcon:hover {
-  transform: scale(1.5);
 }
 
 .ring {
@@ -202,6 +191,20 @@ span::before {
   }
 }
 
+@media (min-width: 751px) {
+  .conisCard:hover {
+    transform: scale(1.05);
+  }
+
+  .inputSearchBox:hover {
+    transform: scale(1.09);
+  }
+
+  .enterIcon:hover {
+    transform: scale(1.5);
+  }
+}
+
 @media (max-width: 750px) {
   body {
     background-color: white;
@@ -215,12 +218,14 @@ span::before {
 
   .cardsContain {
     width: 97%;
+    gap: 5px;
     margin: auto;
   }
 
   .conisCard {
     background-color: white;
     display: flex;
+    padding: 0 15px;
     width: 90%;
     margin: auto;
     border-radius: 10px;
