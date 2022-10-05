@@ -20,10 +20,8 @@
     "import/no-unresolved": "off",
     "no-param-reassign": "off",
     "import/prefer-default-export": "off",
+    "max-len": "off",
     "no-shadow": "off"
   },
-  "ignorePatterns": [
-    "dist/",
-    "build/"
-  ]
+  "ignorePatterns": ["dist/", "build/"]
 }

@@ -1,10 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import './home.css';
 
 function CryptoCoins() {
   const { crypto, status } = useSelector((state) => state.crypto);
+
+  const [searchcoin, setSearchcoin] = useState('');
+  const onSearch = (e) => {
+    setSearchcoin(e.target.value);
+  };
+  const filteredSearch = crypto.filter((filteredCoin) => (
+    filteredCoin.name.toLowerCase().includes(searchcoin.toLowerCase())
+    || filteredCoin.symbol.toLowerCase().includes(searchcoin.toLowerCase())
+  ));
 
   return (
     <div>
@@ -29,6 +38,9 @@ function CryptoCoins() {
             return null;
           })}
         </div>
+        <div className="searchInput">
+          <input className="inputSearchBox" placeholder="Search by name or symbol" type="text" value={searchcoin} onChange={onSearch} />
+        </div>
       </div>
       <div className="coinIcons">
         <p>💰</p>
@@ -42,7 +54,7 @@ function CryptoCoins() {
             <span />
           </div>
         ) : (
-          crypto.map((coin) => (
+          filteredSearch.map((coin) => (
             <div key={coin.id} className="conisCard">
               <div className="coinIcon">
                 <img src={coin.icon} alt="CoinIcon" />
