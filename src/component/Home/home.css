@@ -57,7 +57,7 @@ body {
   border-radius: 30px;
   padding: 15px;
   box-shadow: 1px 1px 1px rgba(249, 249, 249, 0.25);
-} 
+}
 
 .inputSearchBox:hover {
   transform: scale(1.09);
