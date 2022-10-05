@@ -38,7 +38,12 @@ describe("Testing AsyncThunk functions", () => {
       crypto: [],
       status: "pending",
     });
+  });
 
-    it()
+  it("Testing the fulfil state of Async call", () => {
+    expect(Reducer(initialState, { fulfilledState })).toEqual({
+      crypto: [],
+      status: "idle",
+    });
   });
 });
