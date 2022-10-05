@@ -8,5 +8,4 @@ export const store = configureStore({
     crypto: CryptoReducer,
   },
 });
-
 store.dispatch(fetchCryptos());

@@ -10,10 +10,10 @@ function CryptoCoins() {
   const onSearch = (e) => {
     setSearchcoin(e.target.value);
   };
-  const filteredSearch = crypto.filter((filteredCoin) => (
-    filteredCoin.name.toLowerCase().includes(searchcoin.toLowerCase())
-    || filteredCoin.symbol.toLowerCase().includes(searchcoin.toLowerCase())
-  ));
+  const filteredSearch = crypto.filter(
+    (filteredCoin) => filteredCoin.name.toLowerCase().includes(searchcoin.toLowerCase())
+      || filteredCoin.symbol.toLowerCase().includes(searchcoin.toLowerCase()),
+  );
 
   return (
     <div>
@@ -39,13 +39,19 @@ function CryptoCoins() {
           })}
         </div>
         <div className="searchInput">
-          <input className="inputSearchBox" placeholder="Search by name or symbol" type="text" value={searchcoin} onChange={onSearch} />
+          <input
+            className="inputSearchBox"
+            placeholder="Search by name or symbol"
+            type="text"
+            value={searchcoin}
+            onChange={onSearch}
+          />
         </div>
       </div>
       <div className="coinIcons">
+        <h3>₿</h3>
         <p>💰</p>
-        <p>₿ </p>
-        <p>🪙</p>
+        <h3>🪙</h3>
       </div>
       <div className="cardsContain">
         {status === 'pending' ? (
